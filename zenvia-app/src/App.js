@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Maps from './components/maps'
 import Header from './components/header'
+import Footer from './components/footer'
 
 
 export default function App() {
@@ -9,13 +10,9 @@ export default function App() {
     <div className="App">
       <Header></Header>
       <div className="containerMaps">
-        <Maps className='Maps' />
-
-        <div className='Pedidos'>
-          <h4 className='title'>Pedidos</h4>
-        </div>
-
+        <Maps className='Maps' />  
       </div>
+      <Footer />
     </div>
   );
 }

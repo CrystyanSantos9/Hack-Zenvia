@@ -36,3 +36,44 @@
 .title {
   text-align: center;
 }
+
+.display_orders{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_order_2{
+  display:flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.container_order_4{
+  display:flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border:2px solid black;
+}
+
+
+.container_order_text_2{
+  padding-left: 16px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+imgs{
+  max-width: 50px;
+}
+
+.fim{
+  margin: 5px;
+}

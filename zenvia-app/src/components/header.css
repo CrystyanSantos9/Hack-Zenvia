@@ -8,3 +8,49 @@
     max-width: 35px;
     height: auto;
 }
+
+.btn_back{
+    display: flex;
+    width: 100vw;
+    padding: 1em;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer{
+    display: block;
+    position: absolute;
+    background:#fbaa29;
+    width: 100vw;
+    height: 2.5em;
+    bottom: 0;
+    font-size: 1.5em;
+}
+
+.text_footer{
+    font-size: 1.2em;
+}
+
+.footer:checked{
+    opacity: 0.8;
+    color:black;
+}
+
+.container_order{
+    background-color: #fbaa29;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: row;
+    padding: 1.5em;
+    margin: 1em;
+}
+
+.container_order:hover{
+    opacity: 0.8;
+}
+
+.container_order_text{
+    padding-left: 16px;
+    
+}
