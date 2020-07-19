@@ -37,7 +37,7 @@ export default function Menu() {
                  </div>
                  <div className="fim">
                      <p>Finalização </p>
-                     <h3>17:36</h3>
+                     <h3>18:20</h3>
                  </div>
                  
              </div>
