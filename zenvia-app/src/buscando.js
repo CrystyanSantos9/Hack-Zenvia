@@ -9,9 +9,10 @@ export default function Buscando() {
   return (
     <div className="App">
       <Header></Header>
-      <div className="containerMaps">
-        <Maps className='Maps' />  
-      </div>
+        <div className="busca">
+            <h1>Buscando</h1>
+        </div>  
+    
       <Footer />
     </div>
   );

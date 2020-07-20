@@ -82,3 +82,24 @@ imgs{
 .fim{
   margin: 5px;
 }
+
+@keyframes pisca{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+.busca{
+  z-index: 999;
+  position: relative;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  top:300px;
+  animation:pisca 1s infinite;
+
+}
