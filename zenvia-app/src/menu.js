@@ -43,7 +43,7 @@ export default function Menu() {
              </div>
           </div>
           <div className="container_order_4">
-              <Link to='/' className="inactive">
+              <Link to='/buscando' className="inactive">
               <h1>Entregar</h1>
               </Link>
           </div>
