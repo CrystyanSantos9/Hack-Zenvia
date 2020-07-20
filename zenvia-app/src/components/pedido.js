@@ -1,7 +1,7 @@
 import React, {useState,useEffect, createElement } from 'react'
 import './header.css'
 import pizza from '../assets/pizza.png'
-import { Link } from 'react-router-dom'
+import { Link,NavLink } from 'react-router-dom'
 
 
 
@@ -9,7 +9,7 @@ export default function Pedido() {
 
     return (
        <div>
-           <Link to='/menu'>
+           <NavLink to='/menu' className="inactive" activeClassName="active">
           <div className="container_order">
               
               <img src={pizza} a/>
@@ -20,7 +20,7 @@ export default function Pedido() {
                 </div>
             
           </div>
-          </Link>
+          </NavLink>
           <div className="container_order">
               <img src={pizza} a/>
                 <div className="container_order_text" >
